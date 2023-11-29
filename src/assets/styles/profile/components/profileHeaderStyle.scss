@@ -1,0 +1,260 @@
+.profile-header {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+
+  .avatar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 24px;
+    top: 10px;
+
+    .name-category {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .name {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+      }
+
+      .category {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        overflow: hidden;
+      }
+
+      .social-icons {
+        display: flex;
+        margin-top: 15px;
+
+        .youtube-icon {
+          padding-right: 15px;
+        }
+
+        .instagram-icon {
+          padding-right: 15px;
+        }
+
+        .facebook-icon {
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+
+  .avatar_empty {
+    position: absolute;
+    left: 24px;
+    top: 10px;
+  }
+
+  .ellipsis-icon {
+    position: absolute;
+    right: 25px;
+    top: 28px;
+  }
+
+  .ellipsis-icon_empty {
+    position: absolute;
+    right: 25px;
+    top: 28px;
+  }
+
+  .rating-icons_empty {
+    position: relative !important;
+    top: 6px !important;
+  }
+
+  .icons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 25px;
+    bottom: 12px;
+
+    .pen-icon {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: white;
+      background-color: #EFA058;
+      margin-right: 2px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      height: 30px;
+    }
+  }
+
+  .icons_empty {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 51px;
+    bottom: 12px;
+
+    .bell-icon {
+      padding-right: 33px;
+    }
+
+    .pen-icon {
+      padding-right: 33px;
+    }
+
+    .youtube-icon {
+      padding-right: 21px;
+    }
+
+    .instagram-icon {
+      padding-right: 21px;
+    }
+
+    .facebook-icon {
+      padding-right: 21px;
+    }
+  }
+
+  .Voting-value {
+    font-size: 22px;
+  }
+
+  .rating-container {
+    position: absolute;
+    width: 300px;
+    bottom: 55px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .rating-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .count-letter {
+        display: flex;
+        justify-content: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+      }
+
+      .type-letter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 12px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.005em;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+
+
+  .create-btn {
+    width: 40px;
+    position: absolute;
+    right: 13px;
+    bottom: 9px;
+  }
+
+  .drop-down-list {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 250px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    z-index: 10;
+    height: fit-content;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+
+    .list {
+      width: 100%;
+      height: 52px;
+      cursor: pointer;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        color: grey;
+      }
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .profile-header {
+    .avatar {
+      .name-category {
+
+        .social-icons {
+          display: flex;
+          margin-top: 2px;
+
+          .youtube-icon {
+            padding-right: 10px;
+          }
+
+          .instagram-icon {
+            padding-right: 10px;
+          }
+
+          .facebook-icon {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+
+    .rating-container {
+      position: absolute;
+      left: 80px;
+      bottom: 60px;
+    }
+  }
+}

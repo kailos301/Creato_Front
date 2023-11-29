@@ -1,0 +1,94 @@
+.missed-wrapper {
+  box-sizing: border-box;
+  width: 350px;
+  height: 620px;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 40px 10px;
+
+  .header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #54504E;
+  }
+
+  .missed-part {
+    margin-top: 30px;
+
+    .top-letter {
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #7E7875;
+    }
+
+    .dare-again {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .reward-info {
+      margin: 40px auto;
+      box-sizing: border-box;
+      width: 320px;
+      padding: 16px;
+      background: linear-gradient(136.21deg, #FFDD94 0%, #FFC38D 27.6%, #FEB389 53.35%, #FDA384 74.31%, #F68B77 100%);
+      box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+
+      .reward-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.02em;
+          color: #FFFFFF;
+        }
+      }
+
+      .divider {
+        margin: 5px auto;
+        width: 280px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+      }
+
+      .reward-text {
+        display: flex;
+        align-items: center;
+
+        span {
+          margin: 20px 0px;
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 26px;
+          color: #FFFFFF;
+          text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}

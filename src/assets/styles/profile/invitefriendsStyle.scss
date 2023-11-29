@@ -1,0 +1,123 @@
+.invite-friends {
+  max-width: 340px;
+  width: 100%;
+  margin: auto;
+
+  .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .referral-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px 10px 25px;
+
+    .rectangle {
+      box-sizing: border-box;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      height: 130px;
+      background: #FFFFFF;
+      border: 3px solid #EFA058;
+      border-radius: 50%;
+
+      .letter {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #EFA058;
+      }
+
+      .number {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #EFA058;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0;
+
+    .icon {
+      width: 50px;
+      display: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .part {
+      width: 290px;
+      padding-left: 20px;
+      text-align: left;
+
+      .title1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+      }
+
+      .subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+      }
+    }
+  }
+
+  .copy-field {
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #efa058;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+
+    .text {
+      width: 250px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+      padding: 5px;
+    }
+  }
+
+  .social-link {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+}
